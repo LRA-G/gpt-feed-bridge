@@ -1,0 +1,62 @@
+{
+  "feed": {
+    "title": "我的 GPT 興趣閱讀",
+    "description": "由 GPT 產生的繁體中文摘要、重點與閱讀建議。",
+    "language": "zh-TW",
+    "public_url": "https://lra-g.github.io/gpt-feed-bridge/feed.xml",
+    "home_url": "https://lra-g.github.io/gpt-feed-bridge/"
+  },
+  "openai": {
+    "model": "gpt-5.6-luna",
+    "reasoning_effort": "none",
+    "target_language": "繁體中文（台灣）",
+    "include_full_translation": false,
+    "max_input_characters": 16000
+  },
+  "processing": {
+    "max_source_items": 20,
+    "max_new_items_per_run": 5,
+    "max_output_items": 100,
+    "initial_backfill_per_source": 1,
+    "request_timeout_seconds": 30
+  },
+  "paths": {
+    "state": "data/state.json",
+    "output": "docs/feed.xml",
+    "status": "docs/status.json"
+  },
+  "interests": [
+    "小說與故事創作",
+    "遊戲與文化",
+    "設計工具",
+    "數位生產力",
+    "值得長期保存的知識"
+  ],
+  "sources": [
+    {
+      "name": "F1 news - AUTOSPORT.com",
+      "url": "https://www.autosport.com/rss/f1news.xml",
+      "enabled": true
+    },
+    {
+      "name": "PanSci 泛科學",
+      "url": "https://pansci.tw/feed",
+      "enabled": true
+    },
+    {
+      "name": "justfont blog",
+      "url": "https://blog.justfont.com/feed/",
+      "enabled": true
+    },
+    {
+      "name": "報導者",
+      "url": "https://www.twreporter.org/a/rss2.xml",
+      "enabled": true
+    },
+    {
+      "name": "閱讀最前線／Readmoo",
+      "url": "https://news.readmoo.com/feed/",
+      "enabled": true
+    }
+  ]
+}
