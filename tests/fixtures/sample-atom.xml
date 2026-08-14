@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Sample Atom Feed</title>
+  <link href="https://example.com/"/>
+  <updated>2026-08-14T00:00:00Z</updated>
+  <id>https://example.com/atom</id>
+  <entry>
+    <title>Design tools for focused reading</title>
+    <link href="https://example.com/articles/focused-reading"/>
+    <id>sample-focused-reading-1</id>
+    <updated>2026-08-14T00:30:00Z</updated>
+    <author><name>Atom Author</name></author>
+    <content type="html">&lt;p&gt;Good tools support attention without replacing judgment.&lt;/p&gt;</content>
+  </entry>
+</feed>

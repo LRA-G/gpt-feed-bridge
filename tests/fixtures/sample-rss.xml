@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sample Reading Feed</title>
+    <link>https://example.com/</link>
+    <description>Test data</description>
+    <item>
+      <title>A practical guide to personal knowledge systems</title>
+      <link>https://example.com/articles/knowledge-systems</link>
+      <guid>sample-knowledge-systems-1</guid>
+      <pubDate>Thu, 14 Aug 2026 00:00:00 GMT</pubDate>
+      <author>Example Author</author>
+      <content:encoded><![CDATA[
+        <p>A useful reading system separates collection, triage, deep reading, and long-term archiving.</p>
+        <p>Automation should reduce repetitive work without hiding the original source.</p>
+      ]]></content:encoded>
+    </item>
+  </channel>
+</rss>
+

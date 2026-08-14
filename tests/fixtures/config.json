@@ -1,0 +1,36 @@
+{
+  "feed": {
+    "title": "GPT Feed Bridge 測試",
+    "description": "模擬輸出",
+    "language": "zh-TW",
+    "public_url": "https://example.test/feed.xml",
+    "home_url": "https://example.test/"
+  },
+  "openai": {
+    "model": "gpt-5.6-luna",
+    "reasoning_effort": "none",
+    "target_language": "繁體中文（台灣）",
+    "include_full_translation": false,
+    "max_input_characters": 16000
+  },
+  "processing": {
+    "max_source_items": 20,
+    "max_new_items_per_run": 5,
+    "max_output_items": 100,
+    "initial_backfill_per_source": 1,
+    "request_timeout_seconds": 5
+  },
+  "paths": {
+    "state": "work/state.json",
+    "output": "work/feed.xml",
+    "status": "work/status.json"
+  },
+  "interests": ["數位生產力", "長期知識保存"],
+  "sources": [
+    {
+      "name": "測試來源",
+      "url": "sample-rss.xml",
+      "enabled": true
+    }
+  ]
+}
